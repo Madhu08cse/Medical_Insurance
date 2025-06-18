@@ -18,7 +18,7 @@ st.title("Medical Insurance Claim Prediction")
 
 age = st.number_input("Enter Age", min_value=0, max_value=100)
 sex = st.selectbox("Sex", ["male", "female"])
-bmi = st.number_input("BMI (Body Mass Index)")
+bmi = st.slider("BMI (Body Mass Index)")
 children = st.number_input("Number of Children", min_value=0, max_value=10)
 smoker = st.selectbox("Smoker?", ["yes", "no"])
 region = st.selectbox("Region", ["northeast", "northwest", "southeast", "southwest"])
