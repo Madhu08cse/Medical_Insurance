@@ -25,8 +25,8 @@ def add_bg_from_local(image_file):
         unsafe_allow_html=True
     )
 
-# Set new AVIF background
-add_bg_from_local("/content/medical _insurance_backgroud_image.avif")
+# Use relative path (same directory)
+add_bg_from_local("medical_insurance_background_image.avif")
 
 # Banner Section
 st.markdown(
